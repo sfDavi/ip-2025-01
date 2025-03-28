@@ -3,7 +3,7 @@ import "fmt"
 
 func main() {
   var num float64
-  fmt.Scan(&num)
+  fmt.Scanln(&num)
   
   if(num >0){
       fmt.Println("NUMERO POSITIVO")
